@@ -70,7 +70,6 @@
         xhr.onerror = function () {
           location.replace(homepage);
         };
-        alert(GITHUB_ISSUES_LINK + issueNumber)
         xhr.open("GET", GITHUB_ISSUES_LINK + issueNumber);
         xhr.send();
       }
